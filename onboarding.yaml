@@ -15,7 +15,6 @@ spec:
     - title: Next.js app details
       required:
         - project_name
-        - github_repo
       properties:
         project_name:
           title: Name of your new app
