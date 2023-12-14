@@ -9,7 +9,7 @@ metadata:
     - react
     - javascript
 spec:
-  owner: chris.storz@harness.io
+  owner: chris.s@harness.io
   type: service
   parameters:
     - title: Next.js app details
@@ -20,11 +20,7 @@ spec:
         project_name:
           title: Name of your new app
           type: string
-          description: Unique name of the app
-        github_repo:
-          title: Name of the GitHub repository
-          type: string
-          description: This will be the name of Repository on Github
+          description: Unique name of the app (will also be name of the repository)
         isPublish:
           title: Do you wish to publish the artificat the internal registry?
           type: boolean
@@ -65,13 +61,9 @@ spec:
       name: Creating your react app
       action: trigger:harness-custom-pipeline
       input:
-        url: "https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/home/orgs/QE_Team/projects/Quality_Assurence/pipelines/IDP_New_NextJS_app/pipeline-studio/?storeType=INLINE"
+        url: "https://app.harness.io/ng/account/aGkmH1OzTpGENoERsUcPlQ/cd/orgs/default/projects/test2/pipelines/New_app/deployments/xWKv1I7TQYWOEwsWiViVNw/pipeline?storeType=INLINE"
         inputset:
           project_name: ${{ parameters.project_name }}
-          github_repo: ${{ parameters.github_repo }}
-          cloud_provider: ${{ parameters.provider }}
-          db: ${{ parameters.db }}
-          cache: ${{ parameters.cache }}
         apikey: ${{ parameters.token }}
 
   output:
