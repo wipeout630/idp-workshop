@@ -16,7 +16,7 @@ metadata:
 #  tags:
 spec:
   type: service
-  owner: teama
+  owner: techxd
   lifecycle: experimental
   system: my-project
 #  dependsOn:
