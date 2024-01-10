@@ -20,7 +20,7 @@ spec:
   lifecycle: experimental
   system: Demo
   dependsOn:
-    - resource:default/chrisjws-service
+    - component:default/chrisjws-service
 #  consumesApis:
 #    - user-api
 #  providesApis:
