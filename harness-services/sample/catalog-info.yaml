@@ -20,7 +20,7 @@ spec:
   lifecycle: experimental
   system: Demo
 #  dependsOn:
-#    - component:default/<your-username>-service
+#    - component:default/fill-in-your-name-service
 #  consumesApis:
 #    - user-api
 #  providesApis:
