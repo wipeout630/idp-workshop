@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chrisjws-service-dependency
+  description: |
+    My Example service which has something to do with APIs and database.
+  links:
+    - title: Website
+      url: http://my-internal-website.com
+  annotations:
+    github.com/project-slug: chrisjws-harness/idp-lab
+    backstage.io/techdocs-ref: dir:../../
+    lighthouse.com/website-url: https://harness.io
+#  labels:
+#    key1: value1
+#  tags:
+spec:
+  type: service
+  owner: techxd
+  lifecycle: experimental
+  system: Demo
+  dependsOn:
+    - resource:default/chrisjws-service
+#  consumesApis:
+#    - user-api
+#  providesApis:
+#    - example-api
