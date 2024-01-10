@@ -1,6 +1,6 @@
 kind: System
 spec:
-  owner: chris.storz@harness.io
+  owner: teama
   domain: Core
 apiVersion: backstage.io/v1alpha1
 metadata:
