@@ -1,0 +1,8 @@
+kind: Domain
+spec:
+  owner: chris.storz@harness.io
+apiVersion: backstage.io/v1alpha1
+metadata:
+  name: Demo
+  description: Default Organization
+  tags: []
