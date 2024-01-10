@@ -18,7 +18,7 @@ spec:
   type: service
   owner: my-team
   lifecycle: experimental
-  system: my-project
+  system: my-example-service
 #  dependsOn:
 #    - resource:default/my-db
 #  consumesApis:
