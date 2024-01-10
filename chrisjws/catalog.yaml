@@ -18,7 +18,7 @@ spec:
   type: service
   owner: techxd
   lifecycle: experimental
-  system: my-project
+  system: Demo
 #  dependsOn:
 #    - resource:default/my-db
 #  consumesApis:
