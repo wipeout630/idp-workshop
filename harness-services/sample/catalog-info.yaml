@@ -16,9 +16,9 @@ metadata:
 #  tags:
 spec:
   type: service
-  owner: my-team
+  owner: teama
   lifecycle: experimental
-  system: my-example-service
+  system: Demo
 #  dependsOn:
 #    - resource:default/my-db
 #  consumesApis:
