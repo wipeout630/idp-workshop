@@ -1,0 +1,13 @@
+kind: System
+spec:
+  owner: chris.storz@harness.io
+  domain: Core
+apiVersion: backstage.io/v1alpha1
+metadata:
+  name: Demo
+  links:
+    - url: https://harness.io
+      title: Harness Website
+      icon: dashboard
+  description: "Harness.io"
+  tags: []
