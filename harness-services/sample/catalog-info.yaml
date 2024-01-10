@@ -6,9 +6,9 @@ metadata:
     My Example service which has something to do with APIs and database.
   links:
     - title: Website
-      url: http://my-internal-website.com
+      url: http://harness.io
   annotations:
-    github.com/project-slug: myorg/myrepo
+    github.com/project-slug: chrisjws-harness/idp-lab
     backstage.io/techdocs-ref: dir:../../
     lighthouse.com/website-url: https://harness.io
 #  labels:
