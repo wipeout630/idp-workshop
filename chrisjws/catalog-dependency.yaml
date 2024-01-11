@@ -16,7 +16,7 @@ metadata:
 #  labels:
 #    scorecard: chrisjws
   tags:
-     scorecard: chrisjws
+    - chrisjws
 spec:
   type: service
   owner: techxd
