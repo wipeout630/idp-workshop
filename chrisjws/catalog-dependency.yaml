@@ -11,6 +11,8 @@ metadata:
     github.com/project-slug: chrisjws-harness/idp-lab
     backstage.io/techdocs-ref: dir:../../
     lighthouse.com/website-url: https://harness.io
+    harness.io/project-url: https://app.harness.io/ng/account/aGkmH1OzTpGENoERsUcPlQ/home/orgs/default/projects/Lab_Instructor/details
+    harness.io/cd-serviceId: nginx
 #  labels:
 #    key1: value1
 #  tags:
