@@ -13,7 +13,8 @@ metadata:
     lighthouse.com/website-url: https://harness.io
 #  labels:
 #    key1: value1
-#  tags:
+  tags:
+    - yournamehere
 spec:
   type: service
   owner: teama
