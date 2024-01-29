@@ -1,13 +1,12 @@
-kind: System
-spec:
-  owner: teama
-  domain: Core
 apiVersion: backstage.io/v1alpha1
+kind: Domain
 metadata:
-  name: Demo
+  name: Core
+    description: Use this as a sample domain to get started
   links:
     - url: https://harness.io
       title: Harness Website
       icon: dashboard
-  description: "Harness.io"
   tags: []
+spec:
+  owner: platform-team

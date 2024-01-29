@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: core-backend
+  description: Use this as a sample service to get started
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - sample
+  links:
+    - url: https://developer.harness.io/docs/category/get-started-with-idp
+      title: Core Backend Endpoint
+      icon: search
+spec:
+  type: service
+  lifecycle: experimental
+  owner: platform-team
+  system: workshop
+  dependsOn:
+    - resource:default/core-db
+  providesApis:
+    - core-api

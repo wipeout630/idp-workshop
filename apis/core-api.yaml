@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: core-api
+  description: Use this as a sample api to get started
+  annotations:
+    backstage.io/techdocs-ref: dir:../
+  tags:
+    - core
+    - api
+  links:
+    - url: https://developer.harness.io/docs/category/get-started-with-idp
+      title: Core API
+      icon: search
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: platform
+  system: workshop
