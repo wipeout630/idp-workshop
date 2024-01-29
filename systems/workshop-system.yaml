@@ -8,5 +8,5 @@ metadata:
       title: Harness Website
       icon: dashboard
 spec:
-  owner: platform-team
+  owner: platformteam
   domain: Core

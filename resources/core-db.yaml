@@ -5,5 +5,5 @@ metadata:
   description: Use this as a sample resource db to get started
 spec:
   type: database
-  owner: platform-team
+  owner: platformteam
   system: workshop

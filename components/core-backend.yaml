@@ -14,7 +14,7 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: platform-team
+  owner: platformteam
   system: workshop
   dependsOn:
     - resource:default/core-db
