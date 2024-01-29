@@ -2,11 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: Core
-    description: Use this as a sample domain to get started
+  description: Use this as a sample domain to get started
   links:
     - url: https://harness.io
       title: Harness Website
       icon: dashboard
-  tags: []
 spec:
   owner: platform-team
