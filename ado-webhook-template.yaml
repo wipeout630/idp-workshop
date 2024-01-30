@@ -19,11 +19,7 @@ spec:
         project_name:
           title: Name of the Azure DevOps project
           type: string
-          description: Unique name of the project where the pipeline lives in Azure DevOps
-          ui:field: RepoUrlPicker
-          ui:options:
-            allowedRepos:
-              - idp-lab          
+          description: Unique name of the project where the pipeline lives in Azure DevOps         
     - title: Service Infrastructure Details
       required:
         - owner
