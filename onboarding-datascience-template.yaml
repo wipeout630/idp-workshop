@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: onboard
+  name: onboard-data-science
   title: Create a cookicutter datascience app
   description: A template to create a new cookiecutter datascience app
   tags:
