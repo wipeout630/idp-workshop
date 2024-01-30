@@ -6,8 +6,8 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:../
   tags:
+    - sample
     - core
-    - api
   links:
     - url: https://developer.harness.io/docs/category/get-started-with-idp
       title: Core API

@@ -3,6 +3,9 @@ kind: Resource
 metadata:
   name: core-db
   description: Use this as a sample resource db to get started
+  tags:
+    - sample
+    - core  
 spec:
   type: database
   owner: platformteam
