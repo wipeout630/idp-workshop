@@ -9,7 +9,7 @@ metadata:
     - workshop
     - datascience
 spec:
-  owner: name@company.io
+  owner: cassie.souza@harness.io
   type: service
   parameters:
     - title: Repository onboarding details
