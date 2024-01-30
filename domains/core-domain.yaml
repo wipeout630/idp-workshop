@@ -3,6 +3,9 @@ kind: Domain
 metadata:
   name: Core
   description: Use this as a sample domain to get started
+  tags:
+    - sample
+    - core  
   links:
     - url: https://harness.io
       title: Harness Website
