@@ -7,6 +7,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
   tags:
     - sample
+    - core
   links:
     - url: https://developer.harness.io/docs/category/get-started-with-idp
       title: Core Backend Endpoint
