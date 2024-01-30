@@ -21,6 +21,10 @@ spec:
           title: Name of the new repo
           type: string
           description: Unique name of the app/repository
+          ui:field: RepoUrlPicker
+          ui:options:
+            allowedRepos:
+              - idp-lab
         feature_branch:
           title: Name of the feature branch to begin work on
           type: string
