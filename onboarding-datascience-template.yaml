@@ -44,7 +44,7 @@ spec:
           ui:field: HarnessAuthToken
   steps:
     - id: trigger
-      name: Creating your react app
+      name: Creating your data science project
       action: trigger:harness-custom-pipeline
       input:
         url: "https://app.harness.io/ng/account/yQvtq8usTqy7F9FkPQgmEA/home/orgs/default/projects/IDP_Workshop/pipelines/Onboard_Service/pipeline-studio/?storeType=INLINE"
