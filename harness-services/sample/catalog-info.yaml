@@ -17,7 +17,7 @@ metadata:
     - yournamehere
 spec:
   type: service
-  owner: teama
+  owner: change-value
   lifecycle: experimental
   system: Demo
 #  dependsOn:
