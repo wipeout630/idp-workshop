@@ -9,18 +9,19 @@ metadata:
       url: http://harness.io
   annotations:
     github.com/project-slug: chrisjws-harness/idp-lab
-    backstage.io/techdocs-ref: dir:../../
+    backstage.io/techdocs-ref: dir:../
     lighthouse.com/website-url: https://harness.io
 #  labels:
 #    key1: value1
-#  tags:
+  tags:
+    - yournamehere
 spec:
   type: service
-  owner: my-team
+  owner: change-value
   lifecycle: experimental
-  system: my-example-service
+  system: Demo
 #  dependsOn:
-#    - resource:default/my-db
+#    - component:default/fill-in-your-name-service
 #  consumesApis:
 #    - user-api
 #  providesApis:
