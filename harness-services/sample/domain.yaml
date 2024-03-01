@@ -1,8 +1,0 @@
-kind: Domain
-spec:
-  owner: chris.storz@harness.io
-apiVersion: backstage.io/v1alpha1
-metadata:
-  name: Core
-  description: Default Organization
-  tags: []
