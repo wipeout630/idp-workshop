@@ -1,15 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: core-backend
+  name: core-backend-<input username>
   description: Use this as a sample service to get started
   annotations:
-    backstage.io/techdocs-ref: dir:.
-    harness.io/project-url: https://app.harness.io/ng/account/yQvtq8usTqy7F9FkPQgmEA/home/orgs/default/projects/IDP_Workshop/details
-    harness.io/cd-serviceId: corebackend
+    # TODO: Get techdocs working. Why doesn't the README show?
+    backstage.io/techdocs-ref: dir:../
   tags:
     - sample
     - core
+    - <input username>
   links:
     - url: https://developer.harness.io/docs/category/get-started-with-idp
       title: Core Backend Endpoint

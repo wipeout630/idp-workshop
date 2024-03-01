@@ -1,13 +1,12 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: kickoff-ado-pipeline
-  title: Kick off a pipeline in Azure DevOps
-  description: Kick off a pipeline in Azure DevOps and pass values from Harness to pipeline
+  name: bonus-onboarding-lab-<input username>
+  title: Create a cookicutter datascience app
+  description: A template to create a new cookiecutter datascience app
   tags:
-    - sample
     - workshop
-    - selfservice
+    - <input username>
 spec:
   owner: platformteam
   type: service
@@ -15,11 +14,16 @@ spec:
     - title: Repository onboarding details
       required:
         - project_name
+        - feature_branch
       properties:
         project_name:
-          title: Name of the Azure DevOps project
+          title: Name of the new repo
           type: string
-          description: Unique name of the project where the pipeline lives in Azure DevOps         
+          description: Unique name of the app/repository
+        feature_branch:
+          title: Name of the feature branch to begin work on
+          type: string
+          description: This will be the name of the working branch in your new repository
     - title: Service Infrastructure Details
       required:
         - owner
@@ -39,12 +43,13 @@ spec:
           ui:field: HarnessAuthToken
   steps:
     - id: trigger
-      name: Creating your react app
+      name: Creating your data science project
       action: trigger:harness-custom-pipeline
       input:
-        url: "https://app.harness.io/ng/account/yQvtq8usTqy7F9FkPQgmEA/home/orgs/default/projects/IDP_Workshop/pipelines/Trigger_Azure_DevOps/pipeline-studio/?storeType=INLINE"
+        url: "<input onboarding pipeline URL>"
         inputset:
           project_name: ${{ parameters.project_name }}
+          feature_branch: ${{ parameters.feature_branch }}
         apikey: ${{ parameters.token }}
 
   output:

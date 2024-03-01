@@ -1,13 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: core-api
+  name: core-api-<input username>
   description: Use this as a sample api to get started
   annotations:
+    # TODO: Get techdocs working. Why doesn't the README show?
     backstage.io/techdocs-ref: dir:../
   tags:
     - sample
     - core
+    - <input username>
   links:
     - url: https://developer.harness.io/docs/category/get-started-with-idp
       title: Core API
