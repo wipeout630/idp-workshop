@@ -14,7 +14,7 @@ spec:
       required:
         - github_repo_name
         - github_repo_description
-        - owner
+        - github_repo_owner
       properties:
         github_repo_name:
           title: Repository Location
@@ -24,7 +24,7 @@ spec:
           title: Description of the app being scaffolded
           type: string
           description: Description of the app being scaffolded
-        owner:
+        github_repo_owner:
           title: Choose an Owner for the Service
           type: string
           ui:field: OwnerPicker
@@ -46,7 +46,7 @@ spec:
         inputset:
           github_repo: ${{ parameters.github_repo_name }}
           github_repo_description: ${{ parameters.github_repo_description }}
-          owner: ${{ parameters.owner }}
+          github_repo_owner: ${{ parameters.github_repo_owner }}
         apikey: ${{ parameters.token }}
     # The final step is to register our new component in the catalog.
 
