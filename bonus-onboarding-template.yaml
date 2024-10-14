@@ -32,7 +32,7 @@ spec:
           title: Choose an Owner for the Service
           type: string
           ui:field: OwnerPicker
-          ui:options:`
+          ui:options:
             allowedKinds:
               - Group
         # This field is hidden but needed to authenticate the request to trigger the pipeline
