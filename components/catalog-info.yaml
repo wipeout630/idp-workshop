@@ -11,19 +11,32 @@ metadata:
     github.com/project-slug: harnessworkshop/idp-workshop
     backstage.io/techdocs-ref: dir:../
     lighthouse.com/website-url: https://harness.io
-#    harness.io/services: |
-#      paymentService: https://app.harness.io/ng/account/IFG41DWvSnaRLOVNB2uesg/cd/orgs/demoorg/projects/paymentservice/services/paymentservice
-#    harness.io/pipelines: |
-#      paymentService: https://app.harness.io/ng/account/IFG41DWvSnaRLOVNB2uesg/cd/orgs/demoorg/projects/paymentservice/pipelines/harnesscicd/pipeline-studio?storeType=INLINE
-#  labels:
-#    key1: value1
+    # For Harness CI/CD plugins
+    # harness.io/pipelines: |
+    #   Build and Deploy: https://app.harness.io/ng/account/6_vVHzo9Qeu9fXvj-AcbCQ/module/cd/orgs/default/projects/Platform_Demo/pipelines/IaCM_Provision_EC2_Instance/pipeline-studio?storeType=INLINE
+    #   Infrastructure: https://app.harness.io/ng/account/6_vVHzo9Qeu9fXvj-AcbCQ/module/cd/orgs/default/projects/Platform_Demo/pipelines/EndtoEnd_Pipeline_SVC_Redesign/pipeline-studio?storeType=INLINE
+    # harness.io/services: |
+    #   boutique_frontend: https://app.harness.io/ng/account/6_vVHzo9Qeu9fXvj-AcbCQ/module/cd/orgs/default/projects/Platform_Demo/services/Boutique_Frontend
+    # # Kubernetes Plugin
+    # backstage.io/kubernetes-label-selector: 'backstage.io/kubernetes-id=boutique-frontend'
+    # backstage.io/kubernetes-id: boutique-frontend
+    # # Pagerduty
+    # pagerduty.com/service-id: PGXMVMC
+    # # Harness IaCM plugin
+    # harness.io/workspace-url: |
+    #   AWS Staging: https://app.harness.io/ng/account/6_vVHzo9Qeu9fXvj-AcbCQ/module/iacm/orgs/default/projects/Platform_Demo/workspaces/AWS_Workspace_Staging/resources
+    #   Production: https://app.harness.io/ng/account/6_vVHzo9Qeu9fXvj-AcbCQ/module/iacm/orgs/default/projects/Platform_Demo/workspaces/AWS_EC2/resources
+    # # For Feature Flags plugin. CI/CD plugin is governed by the pipelines and services annotations above.
+    # harness.io/project-url: https://app.harness.io/ng/account/6_vVHzo9Qeu9fXvj-AcbCQ/cd/orgs/default/projects/Platform_Demo/experiments
+    # # Jira plugin
+    # jira/project-key: IDP
   tags:
     - yournamehere
 spec:
   type: service
   owner: change-value
   lifecycle: experimental
-#  system: Demo
+#  system: DemoSystem
 #  dependsOn:
 #    - component:default/fill-in-your-name-service
 #  consumesApis:
