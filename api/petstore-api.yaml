@@ -17,6 +17,6 @@ metadata:
 spec:
   type: openapi
   lifecycle: dev
-  owner: Harness_Partners
+  owner: TeamA
   definition:
     $text: ./petstore.oas.yaml
