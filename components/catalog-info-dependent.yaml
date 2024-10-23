@@ -42,10 +42,10 @@ spec:
   type: service
   owner: change-value
   lifecycle: experimental
-#  consumesApis:
-#    - spotify
-#  providesApis:
-#    - petstore
-#  system: yournamehere-system
+  consumesApis:
+    - spotify
+  providesApis:
+    - petstore
 #  dependsOn:
 #    - component:default/yournamehere-service
+#  system: yournamehere-system
