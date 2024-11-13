@@ -4,6 +4,8 @@ metadata:
   name: bonus-onboarding-lab-yournamehere
   title: Create a cookicutter datascience app
   description: A template to create a new cookiecutter datascience app
+  actionButton:
+    text: Select
   tags:
     - workshop
     - yournamehere
