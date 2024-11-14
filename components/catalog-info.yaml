@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: yournamehere-service
+  name: nunsworth-service
   description: |
-    My Example service which has something to do with APIs and database.
+    My first service.
   links:
     - title: Website
       url: http://harness.io
@@ -37,7 +37,7 @@ metadata:
     #jira/project-key: IDP
     ## Jira plugin - End
   tags:
-    - yournamehere
+    - nunsworth
 spec:
   type: service
   owner: change-value
@@ -46,7 +46,7 @@ spec:
     - spotify
   providesApis:
     - petstore
-#  system: yournamehere-system
+#  system: nunsworth-system
 #  dependsOn:
 #    - component:default/yournamehere-service
 
