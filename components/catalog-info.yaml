@@ -40,7 +40,7 @@ metadata:
     - nunsworth
 spec:
   type: service
-  owner: change-value
+  owner: nunsworth
   lifecycle: experimental
   consumesApis:
     - spotify
@@ -48,5 +48,5 @@ spec:
     - petstore
 #  system: nunsworth-system
 #  dependsOn:
-#    - component:default/yournamehere-service
+#    - component:default/nunsworth-service
 
